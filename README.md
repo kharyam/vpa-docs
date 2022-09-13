@@ -113,11 +113,8 @@ The Vertical Pod Autoscaler (VPA) will monitor CPU and memory metrics and provid
    This information should be used in conjunction with OpenShift metric data retrieved during application load testing to pick reasonable default CPU and memory resource values.
 
 
----
 > **_NOTE:_**  To view the VPAs via the UI navigate to the following URL, replacing `<OPENSHIFT URL>` with the OpenShift console domain name and `<NAMESPACE>` with your project Namespace:
 >
 >```
 >https://<OPENSHIFT URL>/k8s/ns/<NAMESPACE>/autoscaling.k8sio~v1~VerticalPodAutoscaler
 >```
-
----
